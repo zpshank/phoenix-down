@@ -5,7 +5,7 @@
 class Slime : public Creature
 {
 public:
-    Slime(pp::Sprite* sprite == nullptr)
+    Slime(pp::Sprite* sprite = nullptr)
         :Creature(1, 1, sprite)
     {};
 };

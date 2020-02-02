@@ -34,6 +34,7 @@ target_sources(phoenix_down
         ${INC}/Wolf.h
         ${INC}/Ghost.h
         ${INC}/GameScreen.h
+        ${INC}/DungeonScreen.h
         # ---- SRC ----
         ${SRC}/PhoenixDownGame.cpp
         ${SRC}/Creature.cpp
@@ -44,6 +45,7 @@ target_sources(phoenix_down
         ${SRC}/Skeleton.cpp
         ${SRC}/Wolf.cpp
         ${SRC}/Ghost.cpp
+        ${SRC}/DungeonScreen.cpp
 )
 target_include_directories(phoenix_down
     PRIVATE

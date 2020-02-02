@@ -5,7 +5,7 @@
 class Ghost : public Creature
 {
 public:
-    Ghost(pp::Sprite* sprite == nullptr)
+    Ghost(pp::Sprite* sprite = nullptr)
         :Creature(1, 3, sprite)
     {};
 };

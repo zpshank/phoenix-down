@@ -5,6 +5,8 @@
 class Constants
 {
 public:
-    static std::string PHOENIX;
+    static const int TICK_HERTZ = 100;
+    static const std::string PHOENIX;
+    static const std::string SLIME;
 };
 #endif

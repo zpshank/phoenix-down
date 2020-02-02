@@ -5,7 +5,7 @@
 class Wolf : public Creature
 {
 public:
-    Wolf(pp::Sprite* sprite == nullptr)
+    Wolf(pp::Sprite* sprite = nullptr)
         :Creature(3, 1, sprite)
     {};
 };
